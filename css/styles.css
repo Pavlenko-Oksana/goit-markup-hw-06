@@ -403,7 +403,9 @@ padding-left: 24px;
 }
 
 .team-icon{
-  display: flex;
+ display: flex;
+ justify-content: center;
+ align-items: center;
  text-align: center;
  padding-left: 32px;
  padding-right: 32px;
@@ -422,7 +424,7 @@ margin-right: 10px;
 .team-icon-image{
  height: 20px;
  width: 20px;
- margin-top: 16px;
+ margin-top: 24px;
  margin-bottom: 24px;
 }
 
@@ -480,6 +482,18 @@ margin-right: 10px;
   height: 190px;
   fill: var(--customers-logo);
   border: 2px;
+}
+/* gallery */
+
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .gallery{
@@ -556,7 +570,7 @@ margin-right: 10px;
   transition: transform 250ms var(--timing-function);
  }
 
-.product-card:hover .section-paragraph{
+.card > a:hover .product-card > p{
   transform: translateY(0%);
 }
 
@@ -564,6 +578,9 @@ margin-right: 10px;
   transform: translateY(0%);
 }
 
+.gallery-content{
+  padding-top: 34px;
+}
  
 /* button */
 .button{
@@ -606,9 +623,7 @@ margin-right: 10px;
  margin-right: 8px;
 }
 
-.gallery-content{
-  padding-top: 34px;
-}
+
 
 /* footer */
 footer{
@@ -688,7 +703,7 @@ margin-bottom: 8px;
 
 .footer-content{
   display: flex;
-  margin-left: 214px;
+  padding-left: 214px;
  }
 
 .footer-address{
