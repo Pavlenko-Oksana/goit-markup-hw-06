@@ -739,3 +739,66 @@ margin-bottom: 8px;
   width: 528px;
   background-color: var(--primary-background-color);
 }
+
+.modal-title{
+ display: block;
+ padding-left: 40px;
+ padding-top: 40px;
+ padding-right: 40px;
+ padding-bottom: 30px;
+ font-weight: 700;
+ font-size: 20px;
+ line-height: 1.15;
+ text-align: center;
+ letter-spacing: 0.03em;
+}
+
+.modal-form-field{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field{
+display: flex;
+flex-direction: column;
+width: 448px;
+height: 40px;
+margin-left: 40px;
+margin-right: 40px;
+margin-bottom: 28px;
+}
+
+.comment-field{
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+.terms-field{
+ margin-left: 52px;
+ margin-right: 52px;
+ margin-bottom: 30px;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 1.7;
+ letter-spacing: 0.03em;
+ color: var(--secondary-text-color);
+}
+
+.button-submit{
+  height: 50px;
+  width: 200px;
+  margin-left: 164px;
+  margin-right: 164px;
+  margin-bottom: 40px;
+  padding-left: 55px;
+  padding-top: 10px;
+  padding-right: 55px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: var(--accent-color);
+  border-radius: 4px;
+}

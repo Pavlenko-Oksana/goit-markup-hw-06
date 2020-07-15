@@ -319,24 +319,32 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
     <form>
-      <b > Оставьте свои данные, мы вам перезвоним</b>
-      <label for="name">Имя</label>
-      <input type="text" name="name" id="name" />
-
-      <label for="tel">Телефон</label>
-      <input type="tel" name="tel" id="tel"/>
-
-      <label for="mail">Почта</label>
-      <input type="email" name="mail" id="mail"/>
-
+      <b class="modal-title"> Оставьте свои данные, мы вам перезвоним</b>
+      <ul class="list modal-form-field">
+      <li class="form-field">
+        <label for="name">Имя</label>
+        <input type="text" name="name" id="name" />
+      </li>
+      <li class="form-field">
+        <label for="tel">Телефон</label>
+        <input type="tel" name="tel" id="tel"/>
+      </li>
+      <li class="form-field">
+        <label for="mail">Почта</label>
+        <input type="email" name="mail" id="mail"/>
+      </li>
+      </ul>
+        <p class="comment-field">
       <label for="comment">Коментарий</label>
       <textarea name="comment" id="comment" rows="8"></textarea>
-
+       </p>
+       <p class="terms-field">
       <input type="checkbox" name="terms" id="terms">
       <label for="terms">Соглашаюсь с рассылкой и  принимаю Условия договора</label>
-      <button type="submit">Отправить</button>   
+      <button type="submit" class="button-submit">Отправить</button>   
+       </p>
     </form>
-        <button data-modal-close> закрыть</button>
+        <button class="button-close" data-modal-close> закрыть</button>
       </div>
     </div>
   <script src="./js/modal.js"></script>
