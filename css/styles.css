@@ -716,6 +716,76 @@ margin-bottom: 8px;
   margin-top: 72px;
 }
 
+.mailind{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-mailind{
+  display: flex;
+  align-items: flex-end;
+  padding-left: 94px;
+  padding-bottom: 94px;
+}
+
+.lable-mailing{
+font-weight: 900;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--accent-color-white);
+margin-bottom: 20px;
+
+}
+
+.input-mailing{
+height: 50px;
+width: 358px;
+padding-left: 16px;
+padding-top: 16px;
+padding-bottom: 16px;
+background-color: var(--footer-background-color);
+border: 1px solid rgba(255, 255, 255, 0.3);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+margin-right: 12px;
+}
+
+.button-mailing{
+ height: 50px;
+ width: 200px;
+ background: #2196F3;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+ border-radius: 4px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 29px;
+ font-family: Roboto;
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 1.87;
+ display: flex;
+ align-items: center;
+ text-align: center;
+ letter-spacing: 0.06em;
+ color: var(--accent-color-white);
+ border-color: transparent;
+
+}
+
+.button-mailing-container{
+ position: relative;
+}
+
+.icon-mailing{
+  position: absolute;
+  top: 13px;
+  right: 28px;
+  fill: var(--accent-color-white);
+}
+
 .backdrop{
   position: fixed;
   top: 0;
