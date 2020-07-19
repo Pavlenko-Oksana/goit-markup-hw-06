@@ -348,12 +348,21 @@
          <label class="comment" for="comment">Коментарий</label>
       </p>
        <p class="terms-field">
-      <input type="checkbox" name="terms" id="terms">
-      <label for="terms">Соглашаюсь с рассылкой и  принимаю Условия договора</label>
-      <button type="submit" class="button-submit">Отправить</button>   
+      
+       <label class="lable-checkbox" for="terms">
+        <input type="checkbox" class="checkbox" name="terms" id="terms">
+        <span class="border-checkbox"></span>
+        <span class="checkbox-text"> Соглашаюсь с рассылкой и  принимаю <a href="#" class="checkbox-link">Условия договора</a></span>
+       </label>
+      
        </p>
+       <button type="submit" class="button-submit">Отправить</button>   
     </form>
-        <button class="button-close" data-modal-close> закрыть</button>
+        <button class="button-close" data-modal-close>
+          <svg class="button-close-icon" width="18px" height="18px">
+            <use href="./images/sprite.svg#icon-close" ></use>
+          </svg>  
+        </button>
       </div>
     </div>
   <script src="./js/modal.js"></script>
